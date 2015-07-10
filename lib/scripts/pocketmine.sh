@@ -24,7 +24,6 @@ while getopts ":b:u:m:p:" opt; do
     m)
         pocketmineChannel=$OPTARG
         ;;
-    
     p)
         plugin=$OPTARG
         ;;
